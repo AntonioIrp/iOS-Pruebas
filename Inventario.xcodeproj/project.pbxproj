@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A952DCB119CE0976000D9E41 /* Commerce.m in Sources */ = {isa = PBXBuildFile; fileRef = A952DCB019CE0976000D9E41 /* Commerce.m */; };
+		A9D343DF19CDD04700C3677A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D343DE19CDD04700C3677A /* Foundation.framework */; };
+		A9D343E119CDD04700C3677A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D343E019CDD04700C3677A /* CoreGraphics.framework */; };
+		A9D343E319CDD04700C3677A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D343E219CDD04700C3677A /* UIKit.framework */; };
+		A9D343E919CDD04700C3677A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9D343E719CDD04700C3677A /* InfoPlist.strings */; };
+		A9D343EB19CDD04700C3677A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D343EA19CDD04700C3677A /* main.m */; };
+		A9D343EF19CDD04700C3677A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D343EE19CDD04700C3677A /* AppDelegate.m */; };
+		A9D343F219CDD04700C3677A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D343F019CDD04700C3677A /* Main_iPhone.storyboard */; };
+		A9D343F519CDD04700C3677A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D343F319CDD04700C3677A /* Main_iPad.storyboard */; };
+		A9D343F819CDD04700C3677A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D343F719CDD04700C3677A /* ViewController.m */; };
+		A9D343FA19CDD04700C3677A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D343F919CDD04700C3677A /* Images.xcassets */; };
+		A9D3440119CDD04700C3677A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3440019CDD04700C3677A /* XCTest.framework */; };
+		A9D3440219CDD04700C3677A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D343DE19CDD04700C3677A /* Foundation.framework */; };
+		A9D3440319CDD04700C3677A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D343E219CDD04700C3677A /* UIKit.framework */; };
+		A9D3440B19CDD04700C3677A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9D3440919CDD04700C3677A /* InfoPlist.strings */; };
+		A9D3440D19CDD04700C3677A /* InventarioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D3440C19CDD04700C3677A /* InventarioTests.m */; };
+		A9D3441719CDD47F00C3677A /* RootCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D3441619CDD47F00C3677A /* RootCell.xib */; };
+		A9D3441A19CDD60800C3677A /* RootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D3441919CDD60800C3677A /* RootCell.m */; };
+		A9DAAB3919CF3A1F008BC2FC /* AddNewCommerce.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DAAB3819CF3A1F008BC2FC /* AddNewCommerce.m */; };
+		A9DE89E119D2E80300787328 /* AddNewProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE89E019D2E80300787328 /* AddNewProduct.m */; };
+		A9DF899419D1B9FB00A48427 /* ViewProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DF899319D1B9FB00A48427 /* ViewProducts.m */; };
+		A9DF899619D1D2D300A48427 /* ProductsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9DF899519D1D2D300A48427 /* ProductsCell.xib */; };
+		A9DF899919D1D51E00A48427 /* ProductsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DF899819D1D51E00A48427 /* ProductsCell.m */; };
+		A9E86F9A19D718A700E37951 /* comerces.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9E86F9919D718A700E37951 /* comerces.plist */; };
+		A9EEE89619D1645C00EB42E0 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE87D19D1645C00EB42E0 /* IQBarButtonItem.m */; };
+		A9EEE89719D1645C00EB42E0 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A9EEE87E19D1645C00EB42E0 /* IQKeyboardManager.bundle */; };
+		A9EEE89819D1645C00EB42E0 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE88019D1645C00EB42E0 /* IQKeyboardManager.m */; };
+		A9EEE89919D1645C00EB42E0 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE88419D1645C00EB42E0 /* IQKeyboardReturnKeyHandler.m */; };
+		A9EEE89A19D1645C00EB42E0 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE88619D1645C00EB42E0 /* IQNSArray+Sort.m */; };
+		A9EEE89B19D1645C00EB42E0 /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE88819D1645C00EB42E0 /* IQSegmentedNextPrevious.m */; };
+		A9EEE89C19D1645C00EB42E0 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE88A19D1645C00EB42E0 /* IQTextView.m */; };
+		A9EEE89D19D1645C00EB42E0 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE88C19D1645C00EB42E0 /* IQTitleBarButtonItem.m */; };
+		A9EEE89E19D1645C00EB42E0 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE88E19D1645C00EB42E0 /* IQToolbar.m */; };
+		A9EEE89F19D1645C00EB42E0 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE89019D1645C00EB42E0 /* IQUIView+Hierarchy.m */; };
+		A9EEE8A019D1645C00EB42E0 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE89219D1645C00EB42E0 /* IQUIView+IQKeyboardToolbar.m */; };
+		A9EEE8A119D1645C00EB42E0 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE89419D1645C00EB42E0 /* IQUIWindow+Hierarchy.m */; };
+		A9EEE8A419D16E9600EB42E0 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EEE8A319D16E9600EB42E0 /* Products.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9D3440419CDD04700C3677A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D343D319CDD04700C3677A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D343DA19CDD04700C3677A;
+			remoteInfo = Inventario;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A952DCAF19CE0976000D9E41 /* Commerce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commerce.h; sourceTree = "<group>"; };
+		A952DCB019CE0976000D9E41 /* Commerce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Commerce.m; sourceTree = "<group>"; };
+		A9D343DB19CDD04700C3677A /* Inventario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D343DE19CDD04700C3677A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9D343E019CDD04700C3677A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9D343E219CDD04700C3677A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9D343E619CDD04700C3677A /* Inventario-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Inventario-Info.plist"; sourceTree = "<group>"; };
+		A9D343E819CDD04700C3677A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9D343EA19CDD04700C3677A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9D343EC19CDD04700C3677A /* Inventario-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Inventario-Prefix.pch"; sourceTree = "<group>"; };
+		A9D343ED19CDD04700C3677A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9D343EE19CDD04700C3677A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9D343F119CDD04700C3677A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A9D343F419CDD04700C3677A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A9D343F619CDD04700C3677A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9D343F719CDD04700C3677A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9D343F919CDD04700C3677A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9D343FF19CDD04700C3677A /* InventarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D3440019CDD04700C3677A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9D3440819CDD04700C3677A /* InventarioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InventarioTests-Info.plist"; sourceTree = "<group>"; };
+		A9D3440A19CDD04700C3677A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9D3440C19CDD04700C3677A /* InventarioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InventarioTests.m; sourceTree = "<group>"; };
+		A9D3441619CDD47F00C3677A /* RootCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootCell.xib; path = ../RootCell.xib; sourceTree = "<group>"; };
+		A9D3441819CDD60800C3677A /* RootCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootCell.h; path = ../RootCell.h; sourceTree = "<group>"; };
+		A9D3441919CDD60800C3677A /* RootCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootCell.m; path = ../RootCell.m; sourceTree = "<group>"; };
+		A9DAAB3719CF3A1F008BC2FC /* AddNewCommerce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewCommerce.h; sourceTree = "<group>"; };
+		A9DAAB3819CF3A1F008BC2FC /* AddNewCommerce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewCommerce.m; sourceTree = "<group>"; };
+		A9DE89DF19D2E80300787328 /* AddNewProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewProduct.h; sourceTree = "<group>"; };
+		A9DE89E019D2E80300787328 /* AddNewProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewProduct.m; sourceTree = "<group>"; };
+		A9DF899219D1B9FB00A48427 /* ViewProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewProducts.h; sourceTree = "<group>"; };
+		A9DF899319D1B9FB00A48427 /* ViewProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewProducts.m; sourceTree = "<group>"; };
+		A9DF899519D1D2D300A48427 /* ProductsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsCell.xib; sourceTree = "<group>"; };
+		A9DF899719D1D51D00A48427 /* ProductsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsCell.h; sourceTree = "<group>"; };
+		A9DF899819D1D51E00A48427 /* ProductsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsCell.m; sourceTree = "<group>"; };
+		A9E86F9919D718A700E37951 /* comerces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = comerces.plist; sourceTree = "<group>"; };
+		A9EEE87C19D1645C00EB42E0 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		A9EEE87D19D1645C00EB42E0 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		A9EEE87E19D1645C00EB42E0 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		A9EEE87F19D1645C00EB42E0 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		A9EEE88019D1645C00EB42E0 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		A9EEE88119D1645C00EB42E0 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		A9EEE88219D1645C00EB42E0 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		A9EEE88319D1645C00EB42E0 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		A9EEE88419D1645C00EB42E0 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		A9EEE88519D1645C00EB42E0 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		A9EEE88619D1645C00EB42E0 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		A9EEE88719D1645C00EB42E0 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		A9EEE88819D1645C00EB42E0 /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		A9EEE88919D1645C00EB42E0 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		A9EEE88A19D1645C00EB42E0 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		A9EEE88B19D1645C00EB42E0 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		A9EEE88C19D1645C00EB42E0 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		A9EEE88D19D1645C00EB42E0 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		A9EEE88E19D1645C00EB42E0 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		A9EEE88F19D1645C00EB42E0 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		A9EEE89019D1645C00EB42E0 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		A9EEE89119D1645C00EB42E0 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		A9EEE89219D1645C00EB42E0 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		A9EEE89319D1645C00EB42E0 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		A9EEE89419D1645C00EB42E0 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		A9EEE89519D1645C00EB42E0 /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		A9EEE8A219D16E9600EB42E0 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
+		A9EEE8A319D16E9600EB42E0 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D343D819CDD04700C3677A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D343E119CDD04700C3677A /* CoreGraphics.framework in Frameworks */,
+				A9D343E319CDD04700C3677A /* UIKit.framework in Frameworks */,
+				A9D343DF19CDD04700C3677A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D343FC19CDD04700C3677A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D3440119CDD04700C3677A /* XCTest.framework in Frameworks */,
+				A9D3440319CDD04700C3677A /* UIKit.framework in Frameworks */,
+				A9D3440219CDD04700C3677A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D343D219CDD04700C3677A = {
+			isa = PBXGroup;
+			children = (
+				A9E86F9919D718A700E37951 /* comerces.plist */,
+				A9EEE87B19D1645C00EB42E0 /* IQKeyBoardManager */,
+				A9D343E419CDD04700C3677A /* Inventario */,
+				A9D3440619CDD04700C3677A /* InventarioTests */,
+				A9D343DD19CDD04700C3677A /* Frameworks */,
+				A9D343DC19CDD04700C3677A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D343DC19CDD04700C3677A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D343DB19CDD04700C3677A /* Inventario.app */,
+				A9D343FF19CDD04700C3677A /* InventarioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D343DD19CDD04700C3677A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D343DE19CDD04700C3677A /* Foundation.framework */,
+				A9D343E019CDD04700C3677A /* CoreGraphics.framework */,
+				A9D343E219CDD04700C3677A /* UIKit.framework */,
+				A9D3440019CDD04700C3677A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9D343E419CDD04700C3677A /* Inventario */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3441819CDD60800C3677A /* RootCell.h */,
+				A9DF899719D1D51D00A48427 /* ProductsCell.h */,
+				A9DF899819D1D51E00A48427 /* ProductsCell.m */,
+				A9D3441919CDD60800C3677A /* RootCell.m */,
+				A9D343ED19CDD04700C3677A /* AppDelegate.h */,
+				A9D343EE19CDD04700C3677A /* AppDelegate.m */,
+				A9DF899519D1D2D300A48427 /* ProductsCell.xib */,
+				A9D3441619CDD47F00C3677A /* RootCell.xib */,
+				A9D343F019CDD04700C3677A /* Main_iPhone.storyboard */,
+				A9DE89DF19D2E80300787328 /* AddNewProduct.h */,
+				A9DE89E019D2E80300787328 /* AddNewProduct.m */,
+				A9DF899219D1B9FB00A48427 /* ViewProducts.h */,
+				A9DF899319D1B9FB00A48427 /* ViewProducts.m */,
+				A9D343F319CDD04700C3677A /* Main_iPad.storyboard */,
+				A9D343F619CDD04700C3677A /* ViewController.h */,
+				A9D343F719CDD04700C3677A /* ViewController.m */,
+				A9DAAB3719CF3A1F008BC2FC /* AddNewCommerce.h */,
+				A9DAAB3819CF3A1F008BC2FC /* AddNewCommerce.m */,
+				A952DCAF19CE0976000D9E41 /* Commerce.h */,
+				A952DCB019CE0976000D9E41 /* Commerce.m */,
+				A9EEE8A219D16E9600EB42E0 /* Products.h */,
+				A9EEE8A319D16E9600EB42E0 /* Products.m */,
+				A9D343F919CDD04700C3677A /* Images.xcassets */,
+				A9D343E519CDD04700C3677A /* Supporting Files */,
+			);
+			path = Inventario;
+			sourceTree = "<group>";
+		};
+		A9D343E519CDD04700C3677A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D343E619CDD04700C3677A /* Inventario-Info.plist */,
+				A9D343E719CDD04700C3677A /* InfoPlist.strings */,
+				A9D343EA19CDD04700C3677A /* main.m */,
+				A9D343EC19CDD04700C3677A /* Inventario-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9D3440619CDD04700C3677A /* InventarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3440C19CDD04700C3677A /* InventarioTests.m */,
+				A9D3440719CDD04700C3677A /* Supporting Files */,
+			);
+			path = InventarioTests;
+			sourceTree = "<group>";
+		};
+		A9D3440719CDD04700C3677A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3440819CDD04700C3677A /* InventarioTests-Info.plist */,
+				A9D3440919CDD04700C3677A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9EEE87B19D1645C00EB42E0 /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				A9EEE87C19D1645C00EB42E0 /* IQBarButtonItem.h */,
+				A9EEE87D19D1645C00EB42E0 /* IQBarButtonItem.m */,
+				A9EEE87E19D1645C00EB42E0 /* IQKeyboardManager.bundle */,
+				A9EEE87F19D1645C00EB42E0 /* IQKeyboardManager.h */,
+				A9EEE88019D1645C00EB42E0 /* IQKeyboardManager.m */,
+				A9EEE88119D1645C00EB42E0 /* IQKeyboardManagerConstants.h */,
+				A9EEE88219D1645C00EB42E0 /* IQKeyboardManagerConstantsInternal.h */,
+				A9EEE88319D1645C00EB42E0 /* IQKeyboardReturnKeyHandler.h */,
+				A9EEE88419D1645C00EB42E0 /* IQKeyboardReturnKeyHandler.m */,
+				A9EEE88519D1645C00EB42E0 /* IQNSArray+Sort.h */,
+				A9EEE88619D1645C00EB42E0 /* IQNSArray+Sort.m */,
+				A9EEE88719D1645C00EB42E0 /* IQSegmentedNextPrevious.h */,
+				A9EEE88819D1645C00EB42E0 /* IQSegmentedNextPrevious.m */,
+				A9EEE88919D1645C00EB42E0 /* IQTextView.h */,
+				A9EEE88A19D1645C00EB42E0 /* IQTextView.m */,
+				A9EEE88B19D1645C00EB42E0 /* IQTitleBarButtonItem.h */,
+				A9EEE88C19D1645C00EB42E0 /* IQTitleBarButtonItem.m */,
+				A9EEE88D19D1645C00EB42E0 /* IQToolbar.h */,
+				A9EEE88E19D1645C00EB42E0 /* IQToolbar.m */,
+				A9EEE88F19D1645C00EB42E0 /* IQUIView+Hierarchy.h */,
+				A9EEE89019D1645C00EB42E0 /* IQUIView+Hierarchy.m */,
+				A9EEE89119D1645C00EB42E0 /* IQUIView+IQKeyboardToolbar.h */,
+				A9EEE89219D1645C00EB42E0 /* IQUIView+IQKeyboardToolbar.m */,
+				A9EEE89319D1645C00EB42E0 /* IQUIWindow+Hierarchy.h */,
+				A9EEE89419D1645C00EB42E0 /* IQUIWindow+Hierarchy.m */,
+				A9EEE89519D1645C00EB42E0 /* KeyboardManager.h */,
+			);
+			name = IQKeyBoardManager;
+			path = Inventario/IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D343DA19CDD04700C3677A /* Inventario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D3441019CDD04700C3677A /* Build configuration list for PBXNativeTarget "Inventario" */;
+			buildPhases = (
+				A9D343D719CDD04700C3677A /* Sources */,
+				A9D343D819CDD04700C3677A /* Frameworks */,
+				A9D343D919CDD04700C3677A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inventario;
+			productName = Inventario;
+			productReference = A9D343DB19CDD04700C3677A /* Inventario.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9D343FE19CDD04700C3677A /* InventarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D3441319CDD04700C3677A /* Build configuration list for PBXNativeTarget "InventarioTests" */;
+			buildPhases = (
+				A9D343FB19CDD04700C3677A /* Sources */,
+				A9D343FC19CDD04700C3677A /* Frameworks */,
+				A9D343FD19CDD04700C3677A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D3440519CDD04700C3677A /* PBXTargetDependency */,
+			);
+			name = InventarioTests;
+			productName = InventarioTests;
+			productReference = A9D343FF19CDD04700C3677A /* InventarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D343D319CDD04700C3677A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Antonio Roldán";
+				TargetAttributes = {
+					A9D343FE19CDD04700C3677A = {
+						TestTargetID = A9D343DA19CDD04700C3677A;
+					};
+				};
+			};
+			buildConfigurationList = A9D343D619CDD04700C3677A /* Build configuration list for PBXProject "Inventario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D343D219CDD04700C3677A;
+			productRefGroup = A9D343DC19CDD04700C3677A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D343DA19CDD04700C3677A /* Inventario */,
+				A9D343FE19CDD04700C3677A /* InventarioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D343D919CDD04700C3677A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D3441719CDD47F00C3677A /* RootCell.xib in Resources */,
+				A9E86F9A19D718A700E37951 /* comerces.plist in Resources */,
+				A9D343F519CDD04700C3677A /* Main_iPad.storyboard in Resources */,
+				A9EEE89719D1645C00EB42E0 /* IQKeyboardManager.bundle in Resources */,
+				A9D343FA19CDD04700C3677A /* Images.xcassets in Resources */,
+				A9D343F219CDD04700C3677A /* Main_iPhone.storyboard in Resources */,
+				A9DF899619D1D2D300A48427 /* ProductsCell.xib in Resources */,
+				A9D343E919CDD04700C3677A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D343FD19CDD04700C3677A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D3440B19CDD04700C3677A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D343D719CDD04700C3677A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EEE89D19D1645C00EB42E0 /* IQTitleBarButtonItem.m in Sources */,
+				A9DF899919D1D51E00A48427 /* ProductsCell.m in Sources */,
+				A952DCB119CE0976000D9E41 /* Commerce.m in Sources */,
+				A9EEE89C19D1645C00EB42E0 /* IQTextView.m in Sources */,
+				A9EEE8A019D1645C00EB42E0 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				A9DE89E119D2E80300787328 /* AddNewProduct.m in Sources */,
+				A9EEE89619D1645C00EB42E0 /* IQBarButtonItem.m in Sources */,
+				A9EEE89F19D1645C00EB42E0 /* IQUIView+Hierarchy.m in Sources */,
+				A9D343F819CDD04700C3677A /* ViewController.m in Sources */,
+				A9EEE8A119D1645C00EB42E0 /* IQUIWindow+Hierarchy.m in Sources */,
+				A9DAAB3919CF3A1F008BC2FC /* AddNewCommerce.m in Sources */,
+				A9EEE89A19D1645C00EB42E0 /* IQNSArray+Sort.m in Sources */,
+				A9EEE89919D1645C00EB42E0 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				A9EEE89819D1645C00EB42E0 /* IQKeyboardManager.m in Sources */,
+				A9EEE89E19D1645C00EB42E0 /* IQToolbar.m in Sources */,
+				A9D3441A19CDD60800C3677A /* RootCell.m in Sources */,
+				A9D343EF19CDD04700C3677A /* AppDelegate.m in Sources */,
+				A9DF899419D1B9FB00A48427 /* ViewProducts.m in Sources */,
+				A9EEE8A419D16E9600EB42E0 /* Products.m in Sources */,
+				A9D343EB19CDD04700C3677A /* main.m in Sources */,
+				A9EEE89B19D1645C00EB42E0 /* IQSegmentedNextPrevious.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D343FB19CDD04700C3677A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D3440D19CDD04700C3677A /* InventarioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9D3440519CDD04700C3677A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D343DA19CDD04700C3677A /* Inventario */;
+			targetProxy = A9D3440419CDD04700C3677A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9D343E719CDD04700C3677A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D343E819CDD04700C3677A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9D343F019CDD04700C3677A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D343F119CDD04700C3677A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A9D343F319CDD04700C3677A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D343F419CDD04700C3677A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A9D3440919CDD04700C3677A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D3440A19CDD04700C3677A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D3440E19CDD04700C3677A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9D3440F19CDD04700C3677A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9D3441119CDD04700C3677A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inventario/Inventario-Prefix.pch";
+				INFOPLIST_FILE = "Inventario/Inventario-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9D3441219CDD04700C3677A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inventario/Inventario-Prefix.pch";
+				INFOPLIST_FILE = "Inventario/Inventario-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9D3441419CDD04700C3677A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Inventario.app/Inventario";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inventario/Inventario-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InventarioTests/InventarioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9D3441519CDD04700C3677A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Inventario.app/Inventario";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inventario/Inventario-Prefix.pch";
+				INFOPLIST_FILE = "InventarioTests/InventarioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D343D619CDD04700C3677A /* Build configuration list for PBXProject "Inventario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D3440E19CDD04700C3677A /* Debug */,
+				A9D3440F19CDD04700C3677A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D3441019CDD04700C3677A /* Build configuration list for PBXNativeTarget "Inventario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D3441119CDD04700C3677A /* Debug */,
+				A9D3441219CDD04700C3677A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D3441319CDD04700C3677A /* Build configuration list for PBXNativeTarget "InventarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D3441419CDD04700C3677A /* Debug */,
+				A9D3441519CDD04700C3677A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D343D319CDD04700C3677A /* Project object */;
+}
